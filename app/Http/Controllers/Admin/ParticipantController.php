@@ -19,7 +19,7 @@ class ParticipantController extends Controller
         $participants = Participant::when($request->filled('nama'), fn ($query) => $query->whereName($request->nama, true))
             ->when($request->filled('pelatihan'), fn ($query) => $query->whereTraining($request->pelatihan))
             ->with('training')
-            ->paginate(1);
+            ->paginate(10);
 
         return view('dashboard.participant.index', compact('participants', 'trainings'));
     }

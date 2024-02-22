@@ -37,7 +37,7 @@
                     <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
                         <div>
                             <label for="sertifikat-1">
-                                <img class="mb-2 h-64 rounded-lg border-2 border-slate-200 md:w-full"
+                                <img class="mb-2 h-64 rounded-lg border-2 border-slate-200 md:w-full xl:h-80"
                                     src="{{ asset('assets/img/certificate/preview/certificate-1.jpg') }}" alt="">
                             </label>
                             <div class="flex items-center rounded border border-gray-200 ps-4">
@@ -51,7 +51,7 @@
                         </div>
                         <div>
                             <label for="sertifikat-2">
-                                <img class="mb-2 h-64 rounded-lg border-2 border-slate-200 md:w-full"
+                                <img class="mb-2 h-64 rounded-lg border-2 border-slate-200 md:w-full xl:h-80"
                                     src="{{ asset('assets/img/certificate/preview/certificate-2.jpg') }}" alt="">
                             </label>
                             <div class="flex items-center rounded border border-gray-200 ps-4">
@@ -65,7 +65,7 @@
                         </div>
                         <div>
                             <label for="sertifikat-3">
-                                <img class="mb-2 h-64 rounded-lg border-2 border-slate-200 md:w-full"
+                                <img class="mb-2 h-64 rounded-lg border-2 border-slate-200 md:w-full xl:h-80"
                                     src="{{ asset('assets/img/certificate/preview/certificate-3.jpg') }}" alt="">
                             </label>
                             <div class="flex items-center rounded border border-gray-200 ps-4">

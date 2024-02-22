@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div class="mx-auto flex w-full flex-col items-center">
+    <div class="mx-auto flex w-full flex-col items-center md:items-baseline">
         <div class="grid grid-cols-1 gap-y-2 sm:grid-cols-1 md:grid-cols-2 md:gap-4 lg:grid-cols-3 xl:grid-cols-4">
             <div class="flex w-full max-w-sm flex-col justify-between rounded-lg border border-gray-200 bg-white shadow"
                 id="card-header">

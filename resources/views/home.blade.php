@@ -24,7 +24,7 @@
         </div>
     </nav>
 
-    <section class="container bg-[#F0F3FF] px-10 py-12 md:px-36" id="hero">
+    <section class="w-full bg-[#F0F3FF] px-10 py-12 md:px-36" id="hero">
         <div class="grid grid-cols-1 items-center py-20 md:grid-cols-2">
             <div class="order-2 flex flex-col space-y-6 md:order-1">
                 <h1 class="text-4xl font-bold md:text-7xl">Dapatkan Sertifikatmu Disini</h1>
@@ -37,7 +37,7 @@
         </div>
     </section>
 
-    <section class="container px-10 py-12 md:px-36" id="search">
+    <section class="px-10 py-12 md:px-36" id="search">
 
         <form method="GET">
             <label class="sr-only mb-2 text-sm font-medium text-gray-900" for="default-search">Search</label>
